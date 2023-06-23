@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    background-color: #cccccc;
+}
+
+/*
+    Boot css
+*/
+
+center {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+flex {
+    display: flex;
+    
+}
+
+
+align-flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+align-flex-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/*FIM BOOT CSS*/
+
+header {
+    background-color: #0f1111;
+    color: #fff;
+    height: 62px;
+}
+
+
+.logo img {
+    width: 150px;
+    height: 40px;
+    padding: 0 9px;
+}
+
+logo img:hover {
+    border-radius: 2px;
+    outline: 1px solid #fff;
+    cursor: pointer;
+}
+
+input-search {
+    padding: 0 10px;
+    width: 70%;
+    display: flex;
+}
+
+input-search form {
+    display: flex;
+    width: 100%;
+}
+
+input-search input[type=text] {
+    width: calc(100% - 40px);
+    height: 40px;
+}
+
+input-search button {
+    width: 40px;
+    border: 0;
+    height: 40px;
+    background-color: #febd68;
+}
+
+text-info-header {
+    height: 50px;
+    margin: 8px 0;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+text-info-header:hover {
+    border-radius: 2px;
+    outline: 1px solid #fff;
+    cursor: pointer;
+}
+
+text-info-header p {
+    white-space: nowrap;
+}
+
