@@ -9,33 +9,44 @@
 </head>
 <body>
     <header>
-        <div class="center flex align-flex-center">
+      <div class="center flex align-flex-center">
             <div class="logo">
-                    <img src="./img/Logo3.png" alt="">
+                <img src="/img/Logo3.png" alt="">
             </div>
             <div class="text-info-header">
-                <p>Olá, <br> <span style="font-size: 12px;"><i class="fa fa-thin fa-location-dot"></i></span>Selecione o endereço</p>
-            </div>
+                <p ><span class="text-ola" style="font-size: 12px;">Olá, </span><br><span><i class="fa fa-location-dot"></i><b style="font-size: 13px;">Selecione o endereço</b></span></p>
+            </div><!--text-info-header-->
             <div class="input-search">
                 <form method="post">
-                    <input type="text"/>
+                    <input type="text">
                     <button type="submit">
-                        <i class="fa fa-search"></i>
+                        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
                     </button>
                 </form>
-                
-                <div class="text-info-header">
-                    <p>Olá, faça seu login <br><b style="font-size: 11px;"></b><b>Contas e Listas</b></p>
-                </div>
-                <div class="text-info-header">
-                    <p>Devoluções<br> e <b>Pedidos</b></p>
-                </div>
-                <div class="text-info-header">
-                    <p class="flex align-flex-end"><i class="fa fa-cart-plus"></i><span style="padding: 0 8px;">Carrinho</span></p>
-                </div>
             </div>
-        </div>
+            <div class="text-info-header">
+                <p style="font-size: 12px;">Olá, faça seu login <br>
+                <b style="font-size: 13px;">Contas e Listas</b>
+                </p>
+            </div><!--text-info-header-->
+            <div class="text-info-header">
+                <p style="font-size: 12px;">Devoluções<br>
+                <b style="font-size: 13px;">e Pedidos</b></p>
+            </div>
+            <div class="text-info-header">
+                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                <p class="flex align-flex-end"><b>
+                    <span  style="font-size: 13px;" >Carrinho</b></span>
+                </p>
+            </div>
+
+      </div><!--center-->
     </header>
-    <script src="/js/script.js"></script>
+
+    <section class="centro">
+
+    </section><!--centro-->
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
