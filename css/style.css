@@ -104,6 +104,9 @@ img {
 }
 
 .navigation {
+    width: 100%;
+    max-width: 1450px;
+    min-width: 800px;
     display: flex;
     align-items: center;
     justify-content: space-between;
