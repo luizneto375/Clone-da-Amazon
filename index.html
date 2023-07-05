@@ -3,168 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Amazon</title>
-    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>Clone da Amazon</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
 </head>
 <body>
     <header>
-      <div class="center flex align-flex-center">
-            <div class="logo">
-                <img src="./img/Logo3.png" alt="">
+        <div class="first">
+            <div class="flex logo">
+            <a href="#"><img src="./img/Logo3.png" alt=""></a>
+            <div class="map flex">
+                <i class="fa fa-location-dot"></i>
+                <div>
+                <span>Olá</span>
+                    <span>Selecione o endereço</span>
+                </div>
             </div>
-            <div class="text-info-header">
-                <p ><span class="text-ola" style="font-size: 12px;">Olá, </span><br><span><i class="fa fa-location-dot"></i><b style="font-size: 13px;">Selecione o endereço</b></span></p>
-            </div><!--text-info-header-->
-            <div class="input-search">
-                <form method="post">
-                    <p class="todos-nav" >Todos<span class="sort-down"><i class="fa-solid fa-sort-down"></i></span></p>
-                    <input type="text" placeholder="Pesquisa Amazon.com.br">
-                    <button type="submit">
-                        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-                    </button>
-                </form>
-            </div>
-            <div class="text-info-header">
-                <p style="font-size: 12px;">Olá, faça seu login <br>
-                <b style="font-size: 13px;">Contas e Listas</b>
-                </p>
-            </div><!--text-info-header-->
-            <div class="text-info-header">
-                <p style="font-size: 12px;">Devoluções<br>
-                <b style="font-size: 13px;">e Pedidos</b></p>
-            </div>
-            <div class="text-info-header">
-                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                <p class="flex align-flex-end"><b>
-                    <span  style="font-size: 13px;" >Carrinho</b></span>
-                </p>
-            </div>
-
-      </div><!--center-->
-    </header>
-    <div class="navigation">
-        <div>
-        <span><i class="fa-sharp fa-solid fa-bars"></i><b>Todos</b></span>
-    </div>
-        <div>
-            <p>Venda na Amazon</p>
-        </div> 
-        <div>
-            <p>Mais Vendidos</p>
         </div>
-            <div>
-                <p>Primes<span><i class="fa-solid fa-sort-down"></i></span></p>
-            </div>
-            <div><p>Ofertas do Dia</p>
-            </div>
-       </div>
-
-       <div class="carousel">
-        <figure id="slider">
-            <im class="img01" src="./img/slider1.jpg" alt="">
-
-            <im class="img02" src="./img/slider2.jpg" alt="">
-
-            <im class="img03" src="./img/slider3.jpg" alt="">
-
-            <im class="img04" src="./img/slider4.jpg" alt="">
-
-            <im class="img05" src="./img/slider5.jpg" alt="">
-
-            <im class="img06" src="./img/slider6.jpg" alt="">
-
-            <im class="img07" src="./img/silder7.jpg" alt="">
-
-                <span style="float:left" class="fa fa-angle-left" onclick="sliderImagens('-')"></span>
-
-                <span style="float:right" class="fa fa-angle-right" onclick="sliderImagens('')"></span>   
-
-                <div class="cardes">
-                    <div class="kindle">
-                        <h2>Conheça os E-readers <br>Kindle</h2>
-                        <img src="./img/kindle1.jpg" alt="">
-                        <p>Kindle 11ª Geração</p>
-                        <img src="./img/kindle2.jpg" alt="">
-                        <p>Kindle Paperwhite</p>
-                        <img src="./img/kindle3.jpg" alt="">
-                        <p>Kindle Oasis</p>
-                        <img src="./img/kindle4.jpg" alt="">
-                        <p>Acessorios</p>
-                        <a href="#">Ver mais E-readers Kindle</a>
-                    </div>
-        </figure> 
         
-     </div>
-
-
-
-
-
-    <!--<div class="ofertas">
-        <h2>Ofertas do Dia</h2>
-        <img src="./img/ofertas.jpg" alt="">
-        <a href="#">Ver todas as ofertas</a>
+        <div class="flex input">
+            <div>
+                <span>Todos</span>
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <input type="text">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="flex right">
+            <div class="sing">
+                <span>Olá, faça seu login</span>
+                <div class="flex ac">
+                    <span>Contas e Listas</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            <div class="sing">
+               <span>Devoluções <br></span>
+               <span>e Pedidos</span>
+            </div>
+            <div class="flex cart">
+                <i class="fa fa-cart-arrow-down"></i>
+                <span class="ca">Carrinho</span>
+                <p>0</p>
+            </div>
+        </div>
     </div>
-
-
-    <div class="echo">
-        <h2>Echo e Fire TV com Alexa</h2>
-        <img src="./img/echo1.jpg" alt="">
-        <p>Novo Echo Pop</p>
-        <img src="./img/echo2.jpg" alt="">
-        <p>Echo Dot 3ª Geração</p>
-        <img src="./img/echo3.jpg" alt="">
-        <p>Fire TV Stick Lite</p>
-        <img src="./img/echo4.jpg" alt="">
-        <p>Echo Dot com <br> Relógio 4ª Geração</p>
-    </div>
-    <div class="conta"><h2>Acesse uma conta para ter <br>a melhor experiência</h2></div>
-    <div class="vazia"></div>-->
-</div>
-     
-     
-
-
-    <!--<section class="main">
-        <div class="center">
-            <div class="vitrine">
-            <div class="box-vitrine">
-                <h3>Amazon Music</h3>
-                <br>
-                <img src="./img/teste1.jpg" alt="">
-                <br>
-                <br>
-                <a href="#">Experimente Agora!</a>
-            </div>
-            <div class="box-vitrine">
-                <h3>Amazon Music</h3>
-                <br>
-                <img src="./img/ofertas.jpg" alt="">
-                <br>
-                <br>
-                <a href="#">Experimente Agora!</a>
-            </div>
-            <div class="box-vitrine">
-                <h3>Amazon Music</h3>
-                <br>
-                <img src="./img/echo1.jpg" alt="">
-                <br>
-                <br>
-                <a href="#">Experimente Agora!</a>
-            </div>
-            <div class="box-vitrine">
-                <h3>Amazon Music</h3>
-                <br>
-                <img src="./img/echo1.jpg" alt="">
-                <br>
-                <br>
-                <a href="#">Experimente Agora!</a>
-            </div>
-            </div><!--vitrine-->
-        </div><!--center-->
-    </section><!--centro--><!---->
-
-    <script src="./js/script.js"></script>
+    </header>
 </body>
 </html>
