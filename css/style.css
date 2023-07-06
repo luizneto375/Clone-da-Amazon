@@ -330,4 +330,37 @@ font-size: 14px;
     width: 100%;
     min-width: 1030px;
     overflow: hidden;
+    height: 560px;
+}
+
+.image-box {
+    display: flex;
+    position: absolute;
+    animation: carousel 15s alternate infinite;
+}
+@keyframes carousel {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0%;
+    }
+    24%{
+        left: -1360px;
+    }
+    42%{
+        left: -1360px;
+    }
+    46%{
+        left: calc(-1360*2px);
+    }
+    62%{
+        left: calc(-1360*2px);
+    }
+    66%{
+        left: calc(-1360*3px);
+    }
+    82%{
+        left: calc(-1360*3px);
+    }
 }
