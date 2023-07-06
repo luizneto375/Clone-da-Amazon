@@ -316,7 +316,6 @@ font-size: 14px;
 
 .slider img {
     width: 1360px;
-    min-width: 1360px;
     height: 100%;
 }
 
@@ -328,7 +327,6 @@ font-size: 14px;
 
 .slider {
     width: 100%;
-    min-width: 1030px;
     overflow: hidden;
     height: 560px;
 }
@@ -348,19 +346,101 @@ font-size: 14px;
     24%{
         left: -1360px;
     }
-    42%{
+    50%{
         left: -1360px;
     }
-    46%{
+    54%{
         left: calc(-1360*2px);
     }
-    62%{
+    80%{
         left: calc(-1360*2px);
     }
-    66%{
+    84%{
         left: calc(-1360*3px);
     }
-    82%{
+    100%{
         left: calc(-1360*3px);
     }
+  
 }
+
+.container-1 {
+    position: absolute;
+    z-index: 1;
+    top: 202px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, #eaeded 30%);
+}
+
+.container-1 .para {
+    background-color: rgb(238, 234, 234);
+    width: 100%;
+    text-align: center;
+}
+
+.container-1 div:first-child {
+    font-size: 14px;
+    padding: 12px 0;
+    
+}
+
+.product-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.product-comp .box {
+    background-color: #fff;
+    width: 286px;
+    height: 400px;
+}
+
+.box h3 {
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 21px;
+    margin-bottom: -2px;
+    color: #0f1111;
+}
+
+.box a {
+    font-size: 13px;
+    margin-left: 20px;
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-a {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.box div img {
+    width: 98%;
+    height: 106px;
+    cursor: pointer;
+    margin-left: 13px;
+    margin-right: -54px;
+
+}
+
+.box-a div {
+    display: inline-block;
+}
+
+.box-a div span {
+    display: block;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
