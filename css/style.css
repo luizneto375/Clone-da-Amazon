@@ -221,3 +221,40 @@ body {
     background-color: rgb(204, 204, 202);
     color: black;
 }
+
+.second {
+width: 100%;
+min-width: 1000px;
+height: 42px;
+background-color: #232f3e;
+display: flex;
+align-items: center;
+color: #fff;
+overflow: hidden;
+font-size: 14px;
+}
+
+.second ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second span {
+  font-size: 15px;
+}
+
+.second-1 div i {
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.second-1:hover {
+    outline: 1px solid #fff;
+}
+
+.second li {
+    padding: 5px 10px;
+    font-weight: 400;
+}
