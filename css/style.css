@@ -18,7 +18,7 @@ body {
 
 .first {
     width: 100%;
-    min-width: 1030px;
+    min-width: 1040px;
     height: 65px;
     background-color: #131a22;
     display: flex;
@@ -383,9 +383,9 @@ font-size: 14px;
     text-align: center;
 }
 
-.container-1 div:first-child {
+.container-1 div:first-child  {
     font-size: 14px;
-    padding: 12px 0;
+    padding: 2px 0;
     
 }
 
@@ -444,3 +444,33 @@ font-size: 14px;
     margin-left: 20px;
 }
 
+
+.box-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-b .best {
+    background-color: #fff;
+    height: 130px;
+    width: 315px;
+}
+
+.best h3 {
+    font-size: 21px;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+
+.best button {
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px rgb(211, 207, 207);
+    color: rgb(43, 43, 42);
+    background-color: #ffd814;
+    width: 200px;
+    margin-left: 20px;
+    height: 30px;
+    border: none;
+}
