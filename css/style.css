@@ -378,7 +378,6 @@ font-size: 14px;
 }
 
 .container-1 .para {
-    background-color: rgb(238, 234, 234);
     width: 100%;
     text-align: center;
 }
@@ -399,31 +398,35 @@ font-size: 14px;
 }
 
 .product-comp .box {
-    background-color: #fff;
+    background-color: #fff; /*Aqui está a cor das 3 primeiras caixas box, que estão na cor branca*/
     width: 286px;
-    height: 400px;
+    height: 410px;
 }
 
-.box h3 {
-    margin-top: 2px;
-    margin-left: 20px;
+
+
+
+.box h3 { /*Nessa parte eu consigo modificar as frases dentro das 3 primeras cxs boxes*/
+    margin-top: 16px;
+    margin-left: 13px;
     font-size: 21px;
     margin-bottom: -2px;
     color: #0f1111;
 }
 
 .box a {
-    font-size: 13px;
+    font-size: 13px;/*Essa é a parte dos linkes (a) das 3 primeiras caixas boxes*/
     margin-left: 20px;
     display: block;
     padding-top: 20px;
-    margin-bottom: 20px;
+    color: #007185; 
 }
 
-.box-a {
+.box-a {/*Essa e parte da 3 cx junto com o link a*/
     overflow: hidden;
-    background-color: #fff;
+    margin-top: -10px;
 }
+
 
 .box div img {
     width: 98%;
@@ -431,14 +434,15 @@ font-size: 14px;
     cursor: pointer;
     margin-left: 13px;
     margin-right: -54px;
-
+    margin-top: 10px;
 }
 
-.box-a div {
+.box-a div { /*Essa parte posso mexer na parte das imagens das 3 primeiras caixas boxes*/
     display: inline-block;
 }
 
-.box-a div span {
+
+.box-a div span {/*aqui eu consigo alterar o paragrafo das 3 primeiras caixas boxes*/
     display: block;
     font-size: 13px;
     margin-left: 20px;
@@ -450,11 +454,19 @@ font-size: 14px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
+    
+}
+
+.box-b img {
+    width: 315px;
+    height: 240px;
+    margin-bottom: -4px;
 }
 
 .box-b .best {
     background-color: #fff;
-    height: 130px;
+    height: 148px;
     width: 315px;
 }
 
@@ -462,6 +474,7 @@ font-size: 14px;
     font-size: 21px;
     margin: 20px;
     margin-bottom: 15px;
+    margin-top: 12px;
 }
 
 .best button {
@@ -469,8 +482,25 @@ font-size: 14px;
     box-shadow: 1px 2px 5px rgb(211, 207, 207);
     color: rgb(43, 43, 42);
     background-color: #ffd814;
-    width: 200px;
-    margin-left: 20px;
-    height: 30px;
+    width: 260px;
+    margin-left: 28px;
+    height: 33px;
     border: none;
 }
+
+.box .box-c img {
+    width: 259px;
+    height: 286px;
+}
+
+.box .box-d img {
+    width: 259px;
+    height: 254px;
+}
+
+.product-comp .box-d {
+
+    height: 310px;
+}
+
+
