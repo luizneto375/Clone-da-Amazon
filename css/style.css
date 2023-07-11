@@ -11,14 +11,17 @@
 
 body {
     margin: 0;
-    width: 100%;
+    width: 50%;
+    ax-width: 1260px;
+    min-width: 1240px;
     background-color: #eaeded;
     box-sizing: border-box;
 }
 
 .first {
     width: 100%;
-    min-width: 1040px;
+    min-width: 100%;
+    max-width: 1260px;
     height: 65px;
     background-color: #131a22;
     display: flex;
@@ -303,11 +306,8 @@ font-size: 14px;
 .second-3 span:hover {
     outline: 1px solid #fff;
 }
-.second-1 div span {
-   padding: 5px;
-}
 
-.sec-1 {
+.sec-1 { /*Esta é a sessão dos sliders das imagens */
     position: relative;
     width: 100%;
     height: 1190px;
@@ -322,14 +322,33 @@ font-size: 14px;
 .container {
     position: relative;
     width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 .slider {
     width: 100%;
     overflow: hidden;
+    position: relative;
     height: 560px;
 }
+
+
+
+
+
+.second-1 div span {
+   padding: 5px;
+}
+
+
+
+
+
+
+
+
 
 .image-box {
     display: flex;
