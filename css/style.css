@@ -12,8 +12,11 @@
 
 body {
     width: 100%;
+    min-width: 1240px;
     background-color: #eaeded;
     box-sizing: border-box;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
 }
 
 .first {
@@ -93,7 +96,7 @@ body {
 .input {
     width: 100%;
     background-color: #fff;
-    flex: 0.98;
+    flex: 0.83;
     border-radius: 3px;
     display: flex;
     margin-left: 85px;
@@ -110,7 +113,7 @@ body {
    border: none;
 }
 
-.input .fa-search-down {
+.input .fa-search {
    color: rgb(51, 51, 51);
    padding: 12.2px 15px;
    font-size: 20px;
@@ -167,19 +170,22 @@ body {
     margin-right: 5px;
 }
 
-.fa-cart-arrow-down {
+.fa-cart-shopping {
     font-size: 30px;
+   
 }
 
 .ca {
     font-size: 14px;
     font-weight: bold;
+    
 }
 
 .cart {
    align-items: flex-end;
    position: relative;
    padding: 5px 10px;
+   
 }
 
 .cart p {
@@ -188,7 +194,6 @@ body {
    font-weight: bolder;
    top: 1px;
    left: 24px;
-   
 }
 
 .cart:hover {
@@ -454,7 +459,7 @@ font-size: 14px;
     margin-left: 16px;
     margin-right: -4px;
     cursor: pointer;
-    argin-top: 10px;
+   
 }
 
 
@@ -516,9 +521,9 @@ font-size: 14px;
 
 .box.box-c img { /*referente a 3ª caixa na sequência*/
     margin: 0 20px;
-    width: 259px;
+    width: 252px;
     height: 286px;
-    margin-left: 10px;
+    margin-left: 18px;
 }
 
 .box.box-c:hover {
@@ -533,6 +538,11 @@ font-size: 14px;
     padding-top: 0;
     padding-bottom: 25px;
     
+}
+
+.sec-2 img {
+    width: 155px;
+    height: 100px;
 }
 
 .slide-sec h3 {
@@ -821,15 +831,21 @@ hr {
 
 .copy {
     background-color: #232f3e;
-    height: 90px;
+    height: 110px;
     padding: 40px;
     text-align: center;
+
 }
 
-.copy span {
-    
+.copy span  {
+    font-weight: 400;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
+   
+}
+
+.fa-brands{
+    width: 25px;
 }
 
 .line {
