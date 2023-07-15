@@ -11,8 +11,8 @@
 }
 
 body {
-    width: 100%;
-    min-width: 1240px;
+    width: 98%;
+   
     background-color: #eaeded;
     box-sizing: border-box;
     overflow-x: scroll;
@@ -21,6 +21,7 @@ body {
 
 .first {
     width: 100%;
+    min-width: 1240px;
     height: 65px;
     background-color: #131a22;
     display: flex;
@@ -226,7 +227,8 @@ body {
 }
 
 .second {
-width: 100%;
+width: 98%;
+min-width: 1240px;
 height: 42px;
 background-color: #232f3e;
 display: flex;
@@ -408,6 +410,7 @@ font-size: 14px;
 
 .product-comp {
     width: 100%;
+    min-width: 1240px;
     height: 100%;
     display: flex;
     box-sizing: border-box;
@@ -552,6 +555,7 @@ font-size: 14px;
 
 .slide-sec {
     width: 100%;
+    min-width: 1240px;
     height: 100%;
     padding: 20px 20px 10px 20px;
     overflow-x: hidden;
@@ -805,6 +809,7 @@ hr {
 /* essa parte pra baixo e o footer*/
 .footer {
     width: 100%;
+    min-width: 1240px;
     height: 490px;
     transition: all 0.2s;
 }
@@ -813,6 +818,7 @@ hr {
     background-color: #4a5664;
     text-align: center;
     height: 50px;
+    min-width: 1240px;
     align-items: center;
     justify-content: center;
     padding: 10px;
