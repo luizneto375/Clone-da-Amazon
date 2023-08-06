@@ -3,26 +3,26 @@
 * {
     margin: 0%;
     padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+    text-decoration: none;/*calculo de texto*/
+    box-sizing: border-box; /*Dimensionamento da caixa*/
+    list-style: none;/*Estilo da lista de caixa*/
     font-family: 'Kanit', sans-serif;
 }
 
-body {
-    width: 98%;
+body { 
+    width: 100%;/*Largura do corpo*/
    
+    min-width: 1240px;
     background-color: #eaeded;
     box-sizing: border-box;
     overflow-x: scroll;
     scroll-behavior: smooth;
 }
 
-.first {
+.first { /*Aqui começa a estilização do header*/
     width: 100%;
     min-width: 1240px;
-    height: 65px;
+    height: 60px;
     background-color: #131a22;
     display: flex;
     align-items: center;
@@ -34,6 +34,7 @@ body {
     padding: 5px 10px;
     height: 42px; 
     cursor: pointer;
+    margin: 0 10px;
  }
 
 .first {
@@ -52,8 +53,8 @@ body {
 }
 
 .logo {
-  flex: -1;
-  margin-right: -75px;
+
+  margin-right: 10px;
   justify-content: space-between;
 }
 
@@ -63,7 +64,7 @@ body {
 }
 
 .map i {
-    margin-top: 25px;
+    margin-top: 17px;
     padding-left: 5px;
     font-size: 17px;
 }
@@ -73,6 +74,7 @@ body {
   display: flex;
   cursor: pointer;
   flex-direction: column;
+
 }
 
 .map div span:first-child {
@@ -87,36 +89,39 @@ body {
 
 .right {
    justify-content: space-between;
-   margin-right: 3px;
+   flex: -1;
+   margin-right: 10px;
    align-items: center;
-   padding: 5px;
-   display: flex;
    cursor: pointer;
 }
 
 .input {
     width: 100%;
     background-color: #fff;
-    flex: 0.83;
+    flex: 1;
     border-radius: 3px;
     display: flex;
-    margin-left: 85px;
+    margin: 0 10px;
     align-items: center;
     overflow: hidden;
     justify-content: space-between;
 }
 
 .input input {
-   outline: none;
-   width: 80%;
-   font-size: 16px;
-   padding: 10px 2px;
-   border: none;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size: 15px;
+    padding: 1% 1% ;  
+    border: none;
 }
+
 
 .input .fa-search {
    color: rgb(51, 51, 51);
-   padding: 12.2px 15px;
+   padding: 12.8px 15px;
    font-size: 20px;
    cursor: pointer;
    background-color: #febd69;
@@ -142,10 +147,11 @@ body {
   margin-left: 1px;
 }
 
-.input .fa-caret-down {
-    color: rgb(51, 51, 51);
+.fa-caret-down {
+    color: #ccc;
     cursor: pointer;
     padding: 5px;
+    font-size: 11px;
 }
 
 .sing {
@@ -179,7 +185,7 @@ body {
 .ca {
     font-size: 14px;
     font-weight: bold;
-    
+  
 }
 
 .cart {
@@ -227,8 +233,7 @@ body {
 }
 
 .second {
-width: 98%;
-min-width: 1240px;
+width: 100%;
 height: 42px;
 background-color: #232f3e;
 display: flex;
@@ -257,7 +262,6 @@ font-size: 14px;
 
 .second-1 div span {
     padding: 5px;
-    /*essa e o hanburge*/
  }
 
 .second li {
@@ -265,7 +269,6 @@ font-size: 14px;
     font-size: 15px;
     margin: 7px 0;
     cursor: pointer;
-/*voltar aqui para ajustar o tmanho*/
 }
 
 .second-1 {
@@ -280,7 +283,7 @@ font-size: 14px;
     display: flex;
     align-items: center;
     padding-left: 15px;
-   /*essa e parte do hamburgue*/
+
 }
 
 
@@ -288,7 +291,7 @@ font-size: 14px;
     flex: 0.74;
     display: flex;
     justify-content: flex-start;
-  /*essa e a parte dos venda mais vendidos voltar pra ajustar*/
+
 }
 
 .second-3 {
@@ -320,13 +323,9 @@ font-size: 14px;
 }
 
 
-
-
 .sec-1 { /*Esta é a sessão dos sliders das imagens */
     position: relative;
     width: 100%;
-    min-width: 1240px;
-    max-width: 100%;
     height: 1190px;
     box-sizing: border-box;
 }
@@ -339,18 +338,14 @@ font-size: 14px;
 .container {
     position: relative;
     width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
 
 .slider {
     width: 100%;
     overflow: hidden;
     position: relative;
-    height: 560px;
-    
+    height: 560px; 
 }
 
 .image-box {
@@ -410,7 +405,6 @@ font-size: 14px;
 
 .product-comp {
     width: 100%;
-    min-width: 1240px;
     height: 100%;
     display: flex;
     box-sizing: border-box;
@@ -420,7 +414,7 @@ font-size: 14px;
 }
 
 .product-comp .box {
-    background-color: #fff; /*Aqui está a cor das 3 primeiras caixas box, que estão na cor branca*/
+    background-color: #fff; 
     width: 286px;
     height: 430px;
     
@@ -431,7 +425,7 @@ font-size: 14px;
 }
 
 
-.box h3 { /*Nessa parte eu consigo modificar as frases dentro das 3 primeras cxs boxes*/
+.box h3 { 
     margin-top: 20px;
     margin-left: 20px;
     font-size: 20px;
@@ -440,7 +434,7 @@ font-size: 14px;
 }
 
 .box a {
-    font-size: 13px;/*Essa é a parte dos linkes (a) das 3 primeiras caixas boxes*/
+    font-size: 13px;
     margin-left: 20px;
     display: block;
     padding-top: 10px;
@@ -448,13 +442,10 @@ font-size: 14px;
     color: #007185; 
 }
 
-.box-a {/*Essa e parte da 3 cx junto com o link a*/
+.box-a {
     overflow: hidden;
     background-color: #fff;
 }
-
-
-
 
 .box div img {
     width: 120px;
@@ -467,12 +458,12 @@ font-size: 14px;
 
 
 
-.box-a div { /*Essa parte posso mexer na parte das imagens das 3 primeiras caixas boxes*/
+.box-a div { 
     display: inline-block;
 }
 
 
-.box-a div span {/*aqui eu consigo alterar o paragrafo das 3 primeiras caixas boxes*/
+.box-a div span {
     display: block;
     font-size: 13px;
     margin-left: 16px;
@@ -484,22 +475,18 @@ font-size: 14px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
-    
 }
 
 .box-b .best {
     background-color: #fff;
     height: 160px;
-    width: 315px;
-    
+    width: 315px; 
 }
 
 .box-b img {
     width: 315px;
     height: 250px;
     margin-bottom: -6px;
-    
     cursor: pointer;
 }
 
@@ -507,7 +494,6 @@ font-size: 14px;
     font-size: 21px;
     margin: 20px;
     margin-bottom: 15px;
-    argin-top: 12px;
 }
 
 .best button {
@@ -522,7 +508,7 @@ font-size: 14px;
     cursor: pointer;
 }
 
-.box.box-c img { /*referente a 3ª caixa na sequência*/
+.box.box-c img { 
     margin: 0 20px;
     width: 252px;
     height: 286px;
@@ -532,7 +518,6 @@ font-size: 14px;
 .box.box-c:hover {
     color: #c7511f;
 }
-
 
 .sec-2 {
     width: 100%;
@@ -555,7 +540,6 @@ font-size: 14px;
 
 .slide-sec {
     width: 100%;
-    min-width: 1240px;
     height: 100%;
     padding: 20px 20px 10px 20px;
     overflow-x: hidden;
@@ -647,9 +631,6 @@ cursor: pointer;
 }
 
 
-
-/*Esta sessão e refentente a parte do sidebar, da interatividade no js*/
-
 .sidebar {
     background-color: #fff;
     width: 380px;
@@ -735,10 +716,10 @@ hr {
     z-index: 101;
 }
 
+
 .fa-angle-right {
     color: rgb(27, 27, 27);
 }
-
 
 
 .hdn-content ul div:hover {
@@ -755,7 +736,7 @@ hr {
     width: 0%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    
+   
 }
 
 .black.active {
@@ -766,7 +747,6 @@ hr {
 
 .black.active-1 {
     top: 70px;
-    idth: 100%;
     z-index: 99;
 }
 
@@ -789,8 +769,8 @@ hr {
 .triangle {
     position: absolute;
     z-index: 101;
-    right: 231px;
-    top: 36px;
+    right: 235.5px;
+    top: 34px;
     display: none;
     background-color: transparent;
     width: 0;
@@ -806,10 +786,8 @@ hr {
 }
 
 
-/* essa parte pra baixo e o footer*/
 .footer {
     width: 100%;
-    min-width: 1240px;
     height: 490px;
     transition: all 0.2s;
 }
@@ -818,7 +796,6 @@ hr {
     background-color: #4a5664;
     text-align: center;
     height: 50px;
-    min-width: 1240px;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -845,7 +822,6 @@ hr {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
-    lex-direction: column;
 }
 
 .table div {
@@ -870,7 +846,7 @@ hr {
     height: 110px;
     padding: 40px;
     text-align: center;
-
+    margin-bottom: 45px;
 }
 
 .copy span  {
@@ -897,7 +873,7 @@ hr {
     width: 500px;
     height: 462px;
     display: none;
-    top: 58px;
+    top: 55px;
     right: 80px;
     background-color: #fff;
     border-radius: 5px;

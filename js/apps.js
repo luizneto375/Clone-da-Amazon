@@ -33,11 +33,12 @@ lef1tbtn.addEventListener('click', function(event){
 
 const backtop = document.querySelector(".backtop");
 
-backtop.addEventListener("clkick", ()=> {
+backtop.addEventListener("click", ()=> {
     document.scrollTo({
         top: 0,
         behavior: "smooth"
     });
+   
 })
 
 const sidebar = document.querySelector(".sidebar");
